@@ -5,7 +5,7 @@ import Swal from 'sweetalert2';
 
 const Formulario = () => {
 
-  const URL = 'http://localhost:3001/crear';
+  const URL = 'https://app-react-back-production.up.railway.app/crear';
 
   const [inputs, setInputs] = useState({
     nombre: "",
